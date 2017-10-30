@@ -1,0 +1,31 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <a class="navbar-brand" href="#">Angular-2 HTTP Post</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+        <a class="nav-link" [routerLink]='["/observable"]' routerLinkActive="active-link">Observable</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]='["/promise"]' routerLinkActive="active-link">Promise</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" [routerLink]='["/manage-book"]' routerLinkActive="active-link">Manage Book</a>
+      </li> -->
+    </ul>
+  </div>
+</nav>
+
+<p class="h1 text-center">{{ title }}</p>
+
+<router-outlet>
+
+</router-outlet>
+
+<!-- <ul>
+  <li *ngFor="let speaker of speakers">{{ speaker.name }}</li>
+</ul> -->

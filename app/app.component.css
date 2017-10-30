@@ -1,0 +1,9 @@
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.active-link {
+    background-color: rgba(0, 90, 97,.3);
+    /* color: rgb(255,255,255); */
+} 
